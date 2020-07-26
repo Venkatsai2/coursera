@@ -3,29 +3,119 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width , initial-scale=1" >
-	<a  rel="stylesheet" title="link to css page"></a>
+	<a  href="web.dev.ex/asignment.css" rel="stylesheet" title="link to css page"></a>
 	<title>Assignment2</title>
 	<style>
-		p{
-			color: green;
-		}
+
+.back{
+	
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: orange;
+}
+section{
+	box-sizing: border-box;
+	overflow:auto;
+	margin:20px;
+	
+}
+
+#title{
+	position:absolute;
+	top:0px;
+	right:0px;
+	box-sizing: content-box;
+    border:2px solid black;
+    background-color: green;
+    font-size: 200%;
+    font-style: italic;
+	
+}
+.para{
+    margin: 40px 5px 5px 5px;
+	padding:2px;
+
+
+}
+
+
+
+@media (min-width: 992px){
+	.col-lg-4{
+		position:relative;
+		border: solid black;
+		padding: 5px;
+        width:29%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	 .col-md-6,.col-md-12{ 
+	    position: relative;
+		border: 1px solid black;
+		padding: 10px;
+		margin: 10px;
+	}
+	.col-md-6{
+	
+		width: 47%;
+	}
+	.col-md-12{
+		
+		width:98%;
+	}
+	#flting1{
+		float:left;
+	}
+}
+@media (max-width: 767px){
+	.col-sm-12{
+		position: relative;
+		border: 1px solid black;
+	    width:95%;
+}
+}
+#flting0{
+	float: left;
+	background-color: yellow;
+}
+#flting1{
+	background-color: pink;
+	float: left;
+
+}
+#flting2{
+	background-color: brown;
+	float: left;
+	clear: right;
+
+}
+
+
 	</style>
 </head>
 <body>
 <center>
-	<h1 class="h">Our Menu </h1>
+	<h1 >Our Menu </h1>
 </center>
-<div class="col-lg-4 col-md-6 col-sm-12">
-		<p>As part of the recommendation, CIL was supposed to submit a rectified site-specific mine reclamation plan in consultation with the Assam Forest Department and a feasibility report for underground mining for the unbroken area along with a compliance report regarding fulfilment of all other conditions.</p>
+<div class="back">
+<section class="col-lg-4 col-md-6 col-sm-12 flt" id="flting0" >
 	
+	   <div id="title">chicken</div>
+        <div class="para">
+		As part of the recommendation, CIL was supposed to submit a rectified site-specific mine reclamation plan in consultation with the Assam Forest Department and a feasibility report for underground mining for the unbroken area along with a compliance report regarding fulfilment of all other conditions.</div>
+	
+</section>
+<section class="col-lg-4 col-md-6 col-sm-12 flt" id="flting1">
+		<div id="title">biryani</div>
+		<div class="para">
+		As part of the recommendation, CIL was supposed to submit a rectified site-specific mine reclamation plan in consultation with the Assam Forest Department and a feasibility report for underground mining for the unbroken area along with a compliance report regarding fulfilment of all other conditions.</div>
+</section>
+<section class="col-lg-4 col-md-12 col-sm-12 flt" id="flting2">
+		<div id="title">pizza</div>
+		<div class="para">
+		As part of the recommendation, CIL was supposed to submit a rectified site-specific mine reclamation plan in consultation with the Assam Forest Department and a feasibility report for underground mining for the unbroken area along with a compliance report regarding fulfilment of all other conditions.</div>
+</section>
 </div>
-<div class="col-lg-4 col-md-6 col-sm-12">
-		<p>As part of the recommendation, CIL was supposed to submit a rectified site-specific mine reclamation plan in consultation with the Assam Forest Department and a feasibility report for underground mining for the unbroken area along with a compliance report regarding fulfilment of all other conditions.</p>
-</div>
-<div class="col-lg-4 col-md-12 col-sm-12">
-		<p>As part of the recommendation, CIL was supposed to submit a rectified site-specific mine reclamation plan in consultation with the Assam Forest Department and a feasibility report for underground mining for the unbroken area along with a compliance report regarding fulfilment of all other conditions.</p>
-</div>
-
 
 </body>
 </html>
