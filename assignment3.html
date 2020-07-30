@@ -10,24 +10,41 @@
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
   </head>
 <body>
 <!-- header start -->
 <header>
 <nav  id="header-nav" class="navbar navbar-default">
   <div class="container">
-    <div class="navbar-brand">
+    <div class="navbar-header">
+     <div class="navbar-brand">
      <a href="assignment3.html"><h1>
       Food, LLC
       </h1>
      </a>
-   </div>
+    </div> 
+   <button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+    <span class="sr-only">toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+     
+   </button><!--  button ends here -->
  </div>
+  <div  id="collapsable-nav" class="collapse navbar-collapse">
+    <ul  id="nav-list" class="nav navbar-nav navbar-right">
+      <li>chicken</li>
+      <li>sushi</li>
+      <li>pizza</li>
+    </ul>
+  </div>
+</div><!-- container ends here -->
 </nav>
 </header><!--header ends here -->
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="bootstrap-3.4.1-dist/js/paclage-lock"></script>
+  <script src="bootstrap-3.4.1-dist/js/jquery-2.1.4.min.js"></script>
   <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
   <script src="bootstrap-3.4.1-dist/js/script.js"></script>
 </body>
