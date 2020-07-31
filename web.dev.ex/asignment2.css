@@ -1,6 +1,3 @@
-body{
-	background-color: aquamarine;
-}
 section{
 	box-sizing: border-box;
 	overflow:auto;
@@ -74,4 +71,7 @@ section{
 	float: left;
 	clear: right;
 
+}
+body{
+	background-color: aquamarine;
 }
