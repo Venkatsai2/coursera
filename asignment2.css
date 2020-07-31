@@ -1,11 +1,10 @@
-body{
-	background-color: aquamarine;
-}
 section{
 	box-sizing: border-box;
 	overflow:auto;
 	margin:5px;
-	}
+	
+}
+
 #title{
 	position:absolute;
 	top:0px;
